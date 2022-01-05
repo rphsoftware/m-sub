@@ -71,8 +71,8 @@ let aeae =      {
 					"name": "FileData",
 					"value": {
 						"offset": 0,
-						"size": statSync("video-to-subtitle/BrailleBlockRegular.ttf").size,
-						"file": "video-to-subtitle/BrailleBlockRegular.ttf"
+						"size": statSync("BrailleBlockRegular.ttf").size,
+						"file": "BrailleBlockRegular.ttf"
 					}
 				},
 				{

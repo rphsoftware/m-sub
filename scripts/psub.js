@@ -5,7 +5,7 @@ const frame = process.argv[2];
 const fid = parseInt(process.argv[3]);
 const oc = process.argv[4];
 
-let nodeMode = false;
+let nodeMode = true;
 
 execSync(`${oc}/v2s i ${oc}/frames/${frame} ${fid * 2} ${oc}/subs/${fid}.ass`);
 
