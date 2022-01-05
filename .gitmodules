@@ -1,3 +1,5 @@
 [submodule "video-to-subtitle"]
 	path = video-to-subtitle
 	url = https://github.com/rphsoftware/video-to-subtitle
+	branch = ass
+
