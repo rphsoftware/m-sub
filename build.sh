@@ -4,5 +4,8 @@
 cd video-to-subtitle
 cargo build --release
 cp target/release/video-to-subtitle ../scripts/v2s
+cd ../scripts
+npm install
+cd ..
 
 echo "Done!"
